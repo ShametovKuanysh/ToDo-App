@@ -1,0 +1,40 @@
+.btn {
+    background-color: #b9b7b7;
+    color: #000;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    border: none
+}
+
+.btn:hover {
+    opacity: .8;
+    transition: .4s;
+}
+
+.btn-primary {
+    background-color: #0070d2;
+    color: #fff;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .filter {
+        display: flex;
+        gap: .5rem;
+    }
+}
+
+
+.active {
+    background-color: #0070d2 !important;
+    color: #fff !important;
+    border: none;
+}
